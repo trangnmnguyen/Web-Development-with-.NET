@@ -1,0 +1,79 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="mpOutside.master.cs" Inherits="MasterPage_mpOutside" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="../StyleSheets/Button.css" rel="stylesheet" type="text/css" />
+    <link href="../StyleSheets/Login_Button.css" rel="stylesheet" type="text/css" />
+    <style type="text/css">
+        .auto-style1 {
+            width: 1305px;
+        }
+        .auto-style2 {
+            width: 1305px;
+            height: 61px;
+        }
+        .auto-style3 {
+            height: 61px;
+        }
+        body {
+            background-color: #FDF4DA;
+            font-family: sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <table width="100%">
+            <tr>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/f/f2/Hogwarts_coat_of_arms_colored_with_shading.svg" alt="Logo" height="150" width="150"> 
+                <td class="auto-style2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="../Pages/ManageUser.aspx">Manage User</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="../Pages/ManageCustomers.aspx">Manage Customers</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="../Pages/ManageLoans.aspx">Manage Loans</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="../Pages/Help.aspx">Help</a>
+                    <asp:SqlDataSource ID="dsUserInformation" runat="server" ConnectionString="<%$ ConnectionStrings:2018Spring001ConnectionString %>" SelectCommand="SELECT [vcFirstName] FROM [tblNguyenUser] WHERE ([pkUserID] = @pkUserID)">
+                        <SelectParameters>
+                            <asp:SessionParameter Name="pkUserID" SessionField="UserID" Type="Int32" />
+                        </SelectParameters>
+                    </asp:SqlDataSource>
+                    </td>
+                <td class="auto-style3">
+                    <asp:FormView ID="fmvUserInformation" runat="server" DataSourceID="dsUserInformation" style="margin-left: 0px">
+                                <EditItemTemplate>
+                                    vcFirstName:
+                                    <asp:TextBox ID="vcFirstNameTextBox" runat="server" Text='<%# Bind("vcFirstName") %>' />
+                                    <br />
+                                    <asp:LinkButton ID="UpdateButton" runat="server" CausesValidation="True" CommandName="Update" Text="Update" />
+                                    &nbsp;<asp:LinkButton ID="UpdateCancelButton" runat="server" CausesValidation="False" CommandName="Cancel" Text="Cancel" />
+                                </EditItemTemplate>
+                                <EmptyDataTemplate>
+                                    <asp:Button ID="btnLogin" runat="server" OnClick="btnLogin_Click" Text="Login" CssClass="loginbutton" />
+                                </EmptyDataTemplate>
+                                <InsertItemTemplate>
+                                    vcFirstName:
+                                    <asp:TextBox ID="vcFirstNameTextBox0" runat="server" Text='<%# Bind("vcFirstName") %>' />
+                                    <br />
+                                    <asp:LinkButton ID="InsertButton" runat="server" CausesValidation="True" CommandName="Insert" Text="Insert" />
+                                    &nbsp;<asp:LinkButton ID="InsertCancelButton" runat="server" CausesValidation="False" CommandName="Cancel" Text="Cancel" />
+                                </InsertItemTemplate>
+                                <ItemTemplate>
+                                    Welcome
+                                    <asp:Label ID="vcFirstNameLabel" runat="server" Text='<%# Bind("vcFirstName") %>' />
+                                    <br />
+                                    <asp:Button ID="btnLogout" runat="server" OnClick="btnLogout_Click" Text="Logout" CssClass="CoolButton" />
+                                </ItemTemplate>
+                            </asp:FormView>
+                </td>
+            </tr>
+            <tr>
+                <td class="auto-style1"><asp:ContentPlaceHolder id="cphMain" runat="server">
+        
+                </asp:ContentPlaceHolder></td>
+            </tr>
+            <tr>
+                <td class="auto-style1">&nbsp;</tr>
+        </table>
+    </div>
+    </form>
+</body>
+</html>

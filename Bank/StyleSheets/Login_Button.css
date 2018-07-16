@@ -1,0 +1,40 @@
+﻿.loginbutton {
+	-moz-box-shadow:inset 0px 1px 0px 0px #d197fe;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #d197fe;
+	box-shadow:inset 0px 1px 0px 0px #d197fe;
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#a53df6', endColorstr='#7c16cb');
+	background-color:#a53df6;
+	-webkit-border-top-left-radius:21px;
+	-moz-border-radius-topleft:21px;
+	border-top-left-radius:21px;
+	-webkit-border-top-right-radius:21px;
+	-moz-border-radius-topright:21px;
+	border-top-right-radius:21px;
+	-webkit-border-bottom-right-radius:21px;
+	-moz-border-radius-bottomright:21px;
+	border-bottom-right-radius:21px;
+	-webkit-border-bottom-left-radius:21px;
+	-moz-border-radius-bottomleft:21px;
+	border-bottom-left-radius:21px;
+	text-indent:0;
+	border:1px solid #9c33ed;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Comic Sans MS;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+	line-height:40px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #7d15cd;
+}
+.loginbutton:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #7c16cb), color-stop(1, #a53df6) );
+	background:-moz-linear-gradient( center top, #7c16cb 5%, #a53df6 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#7c16cb', endColorstr='#a53df6');
+	background-color:#7c16cb;
+}.loginbutton:active {
+	position:relative;
+	top:1px;
+}                

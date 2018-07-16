@@ -1,0 +1,11 @@
+C:\Users\sundruri\Desktop\Loan2018\Loan\bin\Debug\Loan.exe.config
+C:\Users\sundruri\Desktop\Loan2018\Loan\obj\Debug\Loan.csprojResolveAssemblyReference.cache
+C:\Users\sundruri\Desktop\Loan2018\Loan\obj\Debug\Loan.Form1.resources
+C:\Users\sundruri\Desktop\Loan2018\Loan\obj\Debug\Loan.Properties.Resources.resources
+C:\Users\sundruri\Desktop\Loan2018\Loan\obj\Debug\Loan.csproj.GenerateResource.Cache
+C:\Users\sundruri\Desktop\Loan2018\Loan\bin\Debug\Loan.exe
+C:\Users\sundruri\Desktop\Loan2018\Loan\bin\Debug\Loan.pdb
+C:\Users\sundruri\Desktop\Loan2018\Loan\bin\Debug\Loan2018.dll
+C:\Users\sundruri\Desktop\Loan2018\Loan\bin\Debug\Loan2018.pdb
+C:\Users\sundruri\Desktop\Loan2018\Loan\obj\Debug\Loan.exe
+C:\Users\sundruri\Desktop\Loan2018\Loan\obj\Debug\Loan.pdb

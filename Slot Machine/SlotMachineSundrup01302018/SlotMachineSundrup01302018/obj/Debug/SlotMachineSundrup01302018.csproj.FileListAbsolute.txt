@@ -1,0 +1,9 @@
+C:\Users\sundruri\Desktop\SlotMachineSundrup01302018\SlotMachineSundrup01302018\bin\Debug\SlotMachineSundrup01302018.exe.config
+C:\Users\sundruri\Desktop\SlotMachineSundrup01302018\SlotMachineSundrup01302018\bin\Debug\SlotMachineSundrup01302018.exe
+C:\Users\sundruri\Desktop\SlotMachineSundrup01302018\SlotMachineSundrup01302018\bin\Debug\SlotMachineSundrup01302018.pdb
+C:\Users\sundruri\Desktop\SlotMachineSundrup01302018\SlotMachineSundrup01302018\obj\Debug\SlotMachineSundrup01302018.csprojResolveAssemblyReference.cache
+C:\Users\sundruri\Desktop\SlotMachineSundrup01302018\SlotMachineSundrup01302018\obj\Debug\SlotMachineSundrup01302018.Form1.resources
+C:\Users\sundruri\Desktop\SlotMachineSundrup01302018\SlotMachineSundrup01302018\obj\Debug\SlotMachineSundrup01302018.Properties.Resources.resources
+C:\Users\sundruri\Desktop\SlotMachineSundrup01302018\SlotMachineSundrup01302018\obj\Debug\SlotMachineSundrup01302018.csproj.GenerateResource.Cache
+C:\Users\sundruri\Desktop\SlotMachineSundrup01302018\SlotMachineSundrup01302018\obj\Debug\SlotMachineSundrup01302018.exe
+C:\Users\sundruri\Desktop\SlotMachineSundrup01302018\SlotMachineSundrup01302018\obj\Debug\SlotMachineSundrup01302018.pdb

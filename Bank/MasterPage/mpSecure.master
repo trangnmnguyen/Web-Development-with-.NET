@@ -1,0 +1,7 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/MasterPage/mpOutside.master" AutoEventWireup="true" CodeFile="mpSecure.master.cs" Inherits="MasterPage_mpSecure" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="cphMain" Runat="Server">
+    <asp:ContentPlaceHolder id="cphMain" runat="server">
+    </asp:ContentPlaceHolder>
+</asp:Content>
+
